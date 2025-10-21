@@ -1,6 +1,6 @@
-let amic1 = "Joan";
-let amic2 = "Carme";
-let amic3 = "Marc";
+let amic1 = "Antoni";
+let amic2 = "Andy";
+let amic3 = "Leiva";
 let elMeuNom = prompt("Introdueix el teu nom:");
 console.log(
   "El meu nom és " + elMeuNom + 
