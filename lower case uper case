@@ -1,0 +1,2 @@
+console.log("RAMON LLULL".toLowerCase());
+console.log ("rAmOn LLul".toUperCase());
