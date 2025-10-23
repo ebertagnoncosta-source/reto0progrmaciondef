@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+consolelog ("11110010".replace("1""0"));
+
+//solo cambia el primero
+
+console.log("hola hola".replace(/hola/g "adeu"));
+
+//g=global,todos los holas cambiaran por adeu
+
+let a = "11110010";
+a = a.replace(/1/g, "2");
+a = a.replace(/0/g, "1");
+a = a.replace(/2/g, "0");
+alert(a);
+
+</script>
+
+</body>
+</html>
