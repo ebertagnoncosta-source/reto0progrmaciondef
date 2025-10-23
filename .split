@@ -1,1 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
 console.log("sumes,restes,multiplicacions,divisions".split(','));
+
+
+</script>
+
+</body>
+</html>
+
