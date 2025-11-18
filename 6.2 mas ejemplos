@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <script>
+    let trabajadores = ["Miquel", ["Roser", "Ana"], "Josep", "Manel"];
+
+    console.log(Array.isArray(trabajadores)); // true
+    console.log(trabajadores[1][1]); // Ana
+  </script>
+</body>
+</html>
+//ejemplo 2
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script>
+    let valores = [10, [50, 60, 70, 80], 90];
+
+    console.log(Array.isArray(valores)); // true
+
+
+    console.log(valores[1].at(-2));
+    console.log(valores.at(-1));   
+  </script>
+</body>
+</html>
