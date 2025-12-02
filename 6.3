@@ -1,0 +1,27 @@
+#.splice, 1 añade en y el segundo termino elimina desde ese punto.
+let animals = ["gat", "ca", "peix", "cranc"];
+console.log(animals);
+animals.splice(1, 2, "ocell"); // substitueix "ca" per "ocell"
+console.log(animals);
+ animals = ["gat", "ca", "peix", "cranc"];
+animals.splice(2, 1, "ocell"); // substitueix "ca" per "ocell"
+console.log(animals);
+
+
+let fruites = ["poma", "pera", "plàtan", "mandarina","sandia"];
+console.log(fruites.indexOf("pera"));   // 1
+console.log(fruites.indexOf("maduixa")); // -1
+console.log(fruites.indexOf("sandia")); // 4
+
+let fruites = ["poma", "pera", "plàtan", "mandarina","sandia"];
+console.log(fruites.includes("pera"));   // true
+console.log(fruites.includes("plàtan")); // true
+
+let fruites = ["poma", "pera", "plàtan"];
+fruites.forEach(fruita => console.log("M'agrada la", fruita));
+
+let nombres = [1, 2, 3];
+let quadrats = nombres.map(x => x * 103 /100);
+console.log(quadrats);
+
+//Array(3) [ 1.03, 2.06, 3.09 ]
