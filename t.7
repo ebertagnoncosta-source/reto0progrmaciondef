@@ -1,0 +1,25 @@
+let fruita = {
+    0: "meló",
+    1: "préssec",
+    2: "albercoc",
+    3: "papaia",
+    length: 4
+};
+// Afegim més fruites
+fruita[4] = "plàtan";
+fruita.length = 5;
+
+console.log(fruita);
+
+let fruita = Object.freeze ({
+    0: "meló",
+    1: "préssec",
+    2: "albercoc",
+    3: "papaia",
+    length: 4
+});
+// Modificam
+fruita[1] = "préssec";
+fruita[3] = "papaia";
+fruita.length = 4;
+console.log(fruita);
