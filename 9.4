@@ -1,0 +1,28 @@
+// Dataframe d’alumnes
+const alumnes = [
+    { nom: "Anna", nota: 8 },
+    { nom: "Pere", nota: 5 },
+    { nom: "Maria", nota: 9 },
+    { nom: "Joan", nota: 4 }
+];
+// Mostrar tots els alumnes
+console.log("Resultat: Tots els alumnes:");
+alumnes.forEach(a => console.log("Resultat:", a.nom, a.nota));
+
+
+// Filtrar aprovats
+const aprovats = alumnes.filter(a => a.nota >= 5);
+console.log("Resultat: Alumnes aprovats:", aprovats);
+
+
+// Ordenar per nota descendent
+const ordenats = alumnes.sort((a, b) => b.nota - a.nota);
+console.log("Resultat: Alumnes ordenats per nota:", ordenats);
+
+
+const suma = alumnes.reduce((acc, alumne) => acc + alumne.nota, 0);
+const mitjana = suma / alumnes.length;
+
+console.log("Resultat: Nota mitjana:", mitjana.toFixed(2));
+
+
